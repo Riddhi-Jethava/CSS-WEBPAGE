@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-image: url(Image/coffee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    background: rgb(29, 17, 17);
+    position: relative;
+    /* position: sticky; */
+    /* top: 0; */
+}
+.logo{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid white; */
+    float: left;
+    margin-left: 5%;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+nav{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid white; */
+    float: left;
+    margin-left: 30%;
+}
+nav a{
+    line-height: 100px;
+    padding: 2%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 3s;
+    position: relative;
+}
+/* 
+a::before {
+    content: "";
+    width: 0%;
+    height: 0%;
+    border: 2px solid;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+    transition: 5s; 
+}
+a:hover::before{
+    width: 80px;
+    background: white;
+} */
+.heading{
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid white; */
+    position: absolute;
+    top: 200%;  
+}
+.heading h3{
+    font-size: 100px;
+    color: black;
+    font-weight: lighter;
+    margin-left: 2%;
+}
+.heading h2{
+    font-size: 80px;
+    color: white;
+    padding: 2%;
+}
+.heading p{
+    font-size: 25px;
+    color: white;
+    padding: 3%;
+}
+.heading button{
+    font-size: 30px;
+    padding: 2%;
+    background: transparent;
+    margin-left: 3%;
+    transition: 3s;
+}
+.heading:hover button{
+    background: whitesmoke;
+    color: darkblue;
+    border-radius: 50px;
+}
+.part-2{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid rgb(111, 36, 36); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.a{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid black; */
+    padding: 5%;
+    
+}
+.a h1{
+    font-size: 45px;
+    margin-left: 5%;
+    color: rgb(22, 22, 47);
+}
+.a .p1{
+    font-size: 20px;
+    /* padding: 2%; */
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(49, 49, 145);
+}
+
+.a .p2{
+    font-size: 20px;
+    /* padding: 3%; */
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+.a button{
+    font-size: 20px;
+    padding: 2%;
+    background: transparent;
+    margin-top: 10%;
+    width: 40%;
+    transition: 3s;
+    opacity: 0.5;
+}
+.a:hover button{
+    transform: translatey(20px);
+    opacity: 1.3;
+    background: rgb(22, 22, 87);
+    border-radius: 20px;
+    color: white;
+}
+.a img{
+    width: 110%;
+    height: 120%;
+    margin-top: -8%;
+    margin-left: -5%;
+}
+.part-3{
+    width: 100%;
+    height: 1600px;
+    /* border: 1px solid blue; */
+}
+.content1{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+.content1 h1{
+    line-height: 150px;
+    font-size: 50px;
+    text-align: center;
+     color: rgb(22, 22, 47);
+}
+.content1 p{
+    /* line-height: 100px; */
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: rgb(62, 62, 147);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line-1{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-1{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.box-1 img{
+    width: 100%;
+    height: 100%;
+}
+.box-1:hover img{
+    opacity: 0.5;
+}
+.line-2{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-2{
+    width: 30%;
+    height: 350px;
+      overflow: hidden;
+    /* border: 1px solid black; */
+}
+.box-2 img{
+    width: 100%;
+    height: 100%;
+}
+.box-2:hover img{
+    opacity: 0.5;
+}
+.line-3{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-3{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid black; */
+      overflow: hidden;
+}
+.box-3 img{
+    width: 100%;
+    height: 100%;
+}
+.box-3:hover img{
+    opacity: 0.5;
+}
+.part-3 button{
+    font-size: 20px;
+    width: 200px;
+    padding: 1%;
+    margin-left: 42.5%;
+    margin-top: 3%;
+    transition: 3s;
+}
+.part-3:hover button{
+    background: darkslategrey;
+    color: white;   
+}
+.part-4{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    background-image: url(Image/cafebar.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.part-4 h1{
+    text-align: center;
+    font-size: 60px;
+}
+.part-4 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .d{
+    width: 25%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-top: -10%;
+    overflow: hidden;
+    background: orangered;
+    transition: 3s;
+}
+.d img{
+    width: 80px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.d h1{
+    font-size: 40px;
+    margin: 8%;
+}
+.d h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+}
+.d button{
+    width: 200px;
+    font-size: 30px;
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.d:hover{
+    height: 500px;
+}
+.part-5{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.containt2{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid rebeccapurple; */
+    position: absolute;
+    left: 10%;
+}
+.containt2 h1{
+    font-size: 60px;
+    margin-left: 6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+    margin-top: 5%;
+}
+.containt2 h3{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(60, 60, 98);
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.containt2 h2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+    margin-left: 6%;
+    margin-top: 5%;
+    /* border-left: 1px solid blue; */
+}
+.containt2 p{
+    font-size: 25px;
+    margin-left: 3%;
+    padding: 3%;
+    color: rgb(49, 49, 70);
+}
+.part-6{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.part-6 h1{
+    font-size: 70px;
+    text-align: center;
+    /* margin-top: 3%; */
+    color: rgb(59, 25, 25);
+}
+.contact{
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.form1{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid green; */
+    background-image: url(Image/coffee9.webp);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.form1 input{
+    background: white;
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 50px;
+    width: 80%;
+    height: 60px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.form{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid green; */
+    background: black;
+}
+.form1 button{
+    padding: 2%;
+    width: 150px;
+    background: orangered;
+    border-radius: 50px;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.form h3{
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+    background: rgb(37, 33, 33);
+}
+.f{
+    width: 20%;
+    height: 450px;
+    /* border: 1px solid rgb(55, 45, 45); */
+    background: rgb(37, 33, 33);
+}
+.f h1{
+    font-size: 40px;
+    margin: 5%;
+    color: white;   
+}
+.f h3{
+    font-size: 20px;
+    margin-left: 5%;
+    padding: 2%;
+    color: white;
+}    
+.f a{
+    text-decoration: none;
+    color: white;
+}
