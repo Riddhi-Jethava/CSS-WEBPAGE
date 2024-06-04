@@ -1,0 +1,1340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0,0,0,0.5),black), url(img/bg-hero.jpg);
+    color: white;
+}
+.subheader{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+.link{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.num{
+    width: 40%;
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+.social{
+    width: 20%;
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+}
+.social i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.link:hover i{
+    background: darkgreen;
+    color: white;
+    border: none;
+}
+.mainhead{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+.logo h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    color: lawngreen;
+}
+nav{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    line-height: 90px;
+    color: white;
+}
+nav a button{
+    font-size: 20px;
+    padding: 3px;
+    width: 18%;
+    border-radius: 20px;
+    background-color: lawngreen;
+    color: white;
+    border: white;
+}
+nav a:hover button{
+    transform: translateX(10px);
+}
+.text{
+    width: 70%;
+    height: 300px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.text h1{
+    font-size: 70px;
+    margin: 10px;
+}
+.text h4{
+    font-size: 25px;
+    margin: 20px;
+}
+.text input{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.text button{
+    margin-left: -108px;
+    border-radius: 20px;
+    height: 35px;
+    width: 10%;
+    transition: 2s;
+}
+.text:hover button{
+    background-color: lightblue;
+    color: rgb(15, 15, 55);
+    border: none;
+}
+.part-1{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.about img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.about:hover img{
+    opacity: 1;
+}
+.about h2{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.about h1{
+    margin: 20px;
+    font-size: 35px;
+}
+.about h5{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 18px;
+}
+.about p{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.arrow{
+    width: 80%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.arrow h3{
+    font-size: 15px;
+    width: 45%;
+}
+.about button{
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 3px;
+    transition: 2s;
+    padding: 3px;
+}
+.about:hover button{
+    border-radius: 20px;
+    border: none;
+    background-color: darkorange;
+    color: white;
+    transform: translateX(20px);
+}
+.part-2{
+    width: 100%;
+    height: 750px;
+    /* border: 1px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.part-2 h3{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+    color: navy;
+}
+.part-2 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.serv{
+    width: 90%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.s-1{
+    width: 22%;
+    height: 250px;
+    border: 1px solid lightgray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;justify-content: space-evenly;
+    align-items: center;
+}
+.s-1:hover{
+    background-color: rgb(68, 112, 24);
+    color: white;
+}
+.s-1 i{
+    font-size: 50px;
+}
+.s-1 h4{
+    font-size: 12px;
+}
+.part-3{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.part-3 h3{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.part-3 h1{
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+.destination{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.des{
+    width: 60%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.d-1{
+    width: 95%;
+    height: 240px;
+    border: 1px solid lightgray;
+}
+.d-1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.d-1:hover img{
+    opacity: 1;
+}
+.d-2{
+    width: 46%;
+    height: 240px;
+    border: 1px solid lightgray;
+}
+.d-2 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.d-2:hover img{
+    opacity: 1;
+}
+.des2{
+    width: 35%;
+    height: 500px;
+    border: 1px solid lightgrey;
+}
+.des2 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.des2:hover img{
+    opacity: 1;
+}
+.part-4{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.part-4 h3{
+    width: 100%;
+    text-align: center;
+    color: lightcoral;
+}
+.part-4 h1{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: darkslategray;
+}
+.pack{
+    width: 28%;
+    height: 480px;
+    border: 1px solid lightgray;
+}
+.pack img{
+    width: 100%;
+    height: 100%;
+}
+.pack .photo{
+    width: 100%;
+    height: 240px;
+    /* border: 1px solid black; */
+}
+.det{
+    width: 100%;
+    height: 190px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.loc{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+}
+.l-1{
+    width: 33.3%;
+    height: 50px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.l-1:hover{
+    background-color: darkgreen;
+    color: white;
+}
+.pack h4{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.pack button{
+    font-size: 15px;
+    transition: 2s;
+}
+.pack:hover button{
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+.part-5{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgb(0,0,0,0.5),black), url(img/booking.jpg);
+    color: white;
+
+
+}
+.b-1{
+    width: 50%;
+    height: 480px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.b-1 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.b-1 h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.b-1 p{
+    margin: 40px;
+}
+.b-1 button{
+    margin-top: -30px;
+    font-size: 30px;
+}
+.b-1 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.b-1 #i-2{
+    width: 96%;
+    height: 120px;
+}
+.b-1 input{
+    width: 98%;
+    height: 60px;
+    background: transparent;
+    color: whitesmoke;
+    padding: 3px;
+    border: 1px solid whitesmoke;
+}
+#i-1{
+    width: 48%;
+    height: 60px;
+}
+.part-6{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.part-6 h3{
+    width: 100%;
+    text-align: center;
+}
+.part-6 h1{
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(11, 11, 60);
+}
+.ea{
+    width: 70%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.easy{
+    width: 30%;
+    height: 200px;
+    border: 1px solid lightgray;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.easy i{
+    font-size: 70px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: lawngreen;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -50px;
+}
+.easy h2{
+    text-align: center;
+    color: darkslategray;
+}
+.easy p{
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(43, 43, 71);
+}
+.part-7{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.part-7 h3{
+    width: 100%;
+    text-align: center;
+    color: darkgreen;
+}
+.part-7 h1{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+.team{
+    width: 90%;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.t-1{
+    width: 22%;
+    height: 340px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.t-1 img{
+    width: 100%;
+    height: 220px;
+    opacity: 0.5;
+}
+.t-1:hover img{
+    opacity: 1;
+}
+.t-1 i{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    padding: 3px;
+    transition: 2s;
+}
+.t-1:hover i{
+    background: rgb(11, 64, 11);
+    color: white;
+}
+.t-1 h2{
+    margin-top: 8px;
+    color: rgb(59, 37, 37);
+}
+.part-8{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.part-8 h1{
+    font-size: 40px;
+    margin: 10px;
+    color: rgb(13, 13, 39);
+}
+.testim{
+    width: 80%;
+    height: 400px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+}
+.te-1{
+    width: 28%;
+    height: 350px;
+    /* border: 1px solid black; */
+    transition: s;
+}
+.te-1:hover{
+    background-color: rgb(82, 138, 26);
+    color: white;
+}
+.te-2{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid black; */
+    background-color: rgb(82, 138, 26);
+    color: white;
+}
+.te-1 img{
+    border-radius: 50%;
+    margin: 5px
+}
+.te-2 img{
+    margin: 5px;
+    border-radius: 50%;
+}
+.te-1 h3{
+    margin: 5px;
+}
+.te-1 p{
+    font-size: 15px;
+    margin: 20px;
+}
+.te-2 h3{
+    margin: 5px;
+}
+.te-2 p{
+    font-size: 15px;
+    margin: 20px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+.f-1{
+    width: 22%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.f-1 h1{
+    margin: 15px;
+}
+.f-1 a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.f-2{
+    width: 20%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.f-2 h1{
+    margin: 15px;
+}
+.f-2 h5{
+    margin: 10px;
+}
+.f-2 i{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.f-3{
+    width: 22%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.f-3 h1{
+    width: 100%;
+    margin: 15px;
+
+}
+.f-3 img{
+    width: 85px;
+    height: 85px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.f-3 h5{
+    margin: 15px;
+}
+.f-3 input{
+    margin: 15px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:980px)
+{
+    link{
+        height: auto;
+    }
+    .num{
+        width: 50%;
+    }
+    .num h4{
+        font-size: 12px;
+    }
+    .social{
+        width: 22%;
+    }
+    .social i{
+        font-size: 20px;
+    }
+    .logo{
+        width: 25%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo h1{
+        font-size: 40px;
+    }
+    nav{
+        width: 60%;
+    }
+    nav ul li a{
+        padding: 3px;
+        font-size: 16px;
+    }
+    nav a button{
+        font-size: 10px;
+    } 
+    .text{
+        height: auto;
+    }
+    .text h1{
+        font-size: 45px;
+    }
+    .text h4{
+        font-size: 15px;
+    }
+    .text input{
+        width: 70%;
+        height: 35px;
+        font-size: 15px;
+    }
+    .text button{
+        width: 15%;
+        height: 28px;
+        font-size: 10px;
+        margin-left: -105px;
+    }  
+    .about h2{
+        font-size: 15px;
+    }
+    .about h1{
+        font-size: 35px;
+    }
+    .about h5{
+        font-size: 10px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .arrow{
+        width: 90%;
+        height: 120px;
+    }
+    .arrow h3{
+        font-size: 11px;
+    }
+    .part-5{
+        height: auto;
+    }
+    .book{
+        width: 100%;
+        height: auto;
+    }
+    .b-1{
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .b-1 h3{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .b-1 h2{
+        font-size: 50px;
+    }
+    .b-1 h5{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .b-1 p{
+        margin-top: 20px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .b-1 button{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .b-1 h1{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .b-1 #i-1{
+        margin-top: 10px;
+        height: 50px;
+    }
+    .b-1 #i-2{
+        margin-top: 10px;
+        height: 50px;
+    }   
+    .b-1 input{
+        margin-top: 10px;
+        height: 50px;
+    }
+    .ea{
+        width: 90%;
+    }
+    .part-8{
+        height: auto;
+    }
+    .testim{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .te-1{
+        height: auto;
+    }
+    .te-2{
+        height: auto;
+    }
+    footer{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .f-1{
+        width: 45%;
+        margin-top: 10px;
+        height: 230px;
+    }
+    .f-2{
+        width: 45%;
+        margin-top: 10px;
+        height: 230px;
+    }
+    .f-3{
+        width: 45%;
+        margin-top: 10px;
+        height: 250px;
+    }
+    .f-3 img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:720px)
+{
+    .link{
+        height: auto;
+    }
+    .num{
+        width: 60%;
+    }
+    .num h4{
+        font-size: 12px;
+    }
+    .social{
+        width: 22%;
+    }
+    .social i{
+        font-size: 15px;
+    }
+    .logo{
+        width: 30%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo h1{
+        font-size: 40px;
+    }
+    nav{
+        width: 60%;
+    }
+    nav ul li a{
+        padding: 1px;
+        font-size: 13px;
+    }
+    nav a button{
+        font-size: 10px;
+    } 
+    .text{
+        height: auto;
+    }
+    .text h1{
+        font-size: 32px;
+    }
+    .text h4{
+        font-size: 15px;
+    }
+    .text input{
+        width: 70%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .text button{
+        width: 15%;
+        height: 25px;
+        font-size: 10px;
+        margin-left: -75px;
+    }
+    .part-1{
+        height: auto;
+    }
+    .about{
+        width: 48%;
+        height: 500px;
+        margin-top: 10px;
+    }
+    .about h2{
+        font-size: 12px;
+    }
+    .about h1{
+        font-size: 28px;
+    }
+    .about h5{
+        font-size: 9px;
+    }
+    .about p{
+        font-size: 12px;
+    }
+    .arrow{
+        width: 90%;
+        height: 120px;
+    }
+    .arrow h3{
+        font-size: 10px;
+    }
+    .part-2{
+        height: auto;
+    }
+    .part-2 h3{
+        margin-top: 30px;
+    }
+    .serv{
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 20px;   
+        margin-bottom: 10px;
+    }
+    .s-1{
+        margin: 5px;
+        width: 30%;
+    }
+    .s-1 h2{
+        font-size: 18px;
+    }
+    .s-1 h4{
+        font-size: 10px;
+    }
+    .part-4{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .part-4 h3{
+        margin-top: 30px;
+    }
+    .part-4 h1{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .pack{
+        width: 45%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .det h3{
+        margin-top: -5px;
+    }
+    .det h4{
+        margin-top: 3px;
+    }
+    .part-5{
+        height: auto;
+    }
+    .book{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .b-1{
+        width: 70%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .b-1 h3{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .b-1 h2{
+        font-size: 30px;
+    }
+    .b-1 h5{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .b-1 p{
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .b-1 button{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .b-1 h1{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .b-1 input{
+        margin-top: 5px;
+    }
+    .ea{
+        width: 100%;
+    }
+    .ea i{
+        font-size: 50px;
+        margin-top: -50px;
+    }
+    .ea h2{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .part-7{
+        height: auto;
+    }
+    .team{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .t-1{
+        width: 42%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .part-8{
+        height: auto;
+    }
+    .testim{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .te-1{
+        width: 45%;
+        margin: 5px;
+    }
+    .te-2{
+        width: 45%;
+        margin: 5px;
+    }
+    footer{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .f-1{
+        width: 45%;
+        margin-top: 10px;
+        height: 230px;
+    }
+    .f-2{
+        width: 45%;
+        margin-top: 10px;
+        height: 230px;
+    }
+    .f-3{
+        width: 45%;
+        margin-top: 10px;
+        height: 250px;
+    }
+    .f-3 img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media(max-width:480px)
+{
+    .link{
+        height: auto;
+    }
+    .num{
+        width: 70%;
+    }
+    .num h4{
+        font-size: 8px;
+    }
+    .social{
+        width: 22%;
+    }
+    .social i{
+        font-size: 15px;
+    }
+    .logo{
+        width: 20%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    nav{
+        width: 70%;
+    }
+    nav ul li a{
+        padding: 1px;
+        font-size: 10px;
+    }
+    nav a button{
+        font-size: 10px;
+    }
+    .text{
+        height: auto;
+    }
+    .text h1{
+        font-size: 22px;
+    }
+    .text h4{
+        font-size: 12px;
+    }
+    .text input{
+        width: 60%;
+        height: 30px;
+        font-size: 15px;
+    }
+    .text button{
+        width: 15%;
+        height: 25px;
+        font-size: 10px;
+        margin-left: -50px;
+    }
+    .part-1{
+        height: auto;
+        flex-direction: column;
+    }
+    .about{
+        width: 95%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .arrow h3{
+        font-size: 12px;
+    }
+    .about button{
+        margin-bottom: 10px;
+    }
+    .part-2{
+        height: auto;
+    }
+    .part-2 h3{
+        margin-top: 30px;
+    }
+    .serv{
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 20px;   
+        margin-bottom: 10px;
+    }
+    .s-1{
+        margin: 5px;
+        width: 42%;
+    }
+    .s-1 h2{
+        font-size: 15px;
+    }
+    .s-1 h4{
+        font-size: 8px;
+    }
+    .part-4{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .part-4 h3{
+        margin-top: 30px;
+    }
+    .part-4 h1{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .pack{
+        width: 80%;
+        height: auto;
+        margin: 10px;
+    }
+    .part-5{
+        height: auto;
+    }
+    .book{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .b-1{
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .b-1 h3{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .b-1 h2{
+        font-size: 30px;
+    }
+    .b-1 h5{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .b-1 p{
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .b-1 button{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .b-1 h1{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .b-1 input{
+        margin-top: 5px;
+    }
+    .part-6{
+        height: auto;
+    }
+    .part-6 h3{
+        margin: 20px;
+    }
+    .ea{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .easy{
+        width: 70%;
+        margin-top: 55px;
+        margin-bottom: 10px;
+    }
+    .part-7{
+        height: auto;
+    }
+    .team{
+        height: auto;
+        flex-direction: column;
+    }
+    .t-1{
+        width: 70%;
+    }
+    .part-8{
+        height: auto;
+    }
+    .testim{
+        height: auto;
+        flex-direction: column;
+    }
+    .te-1{
+        width: 70%;
+        margin: 5px;
+    }
+    .te-2{
+        width: 70%;
+        margin: 5px;
+    }
+    footer{
+        height: auto;
+        flex-direction: column;
+    }
+    .f-1{
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .f-2{
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .f-3{
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .f-3 img{
+        width: 80px;
+        height: 80px;
+    }
+
+}
